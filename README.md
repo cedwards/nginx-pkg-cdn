@@ -2,8 +2,9 @@
 
 Usage:
 ```shell
-bastille create nginx-pkg-cdn 11.2-RELEASE 10.88.9.40
 bastille bootstrap https://github.com/cedwards/nginx-pkg-cdn
+bastille create nginx-pkg-cdn 11.2-RELEASE 10.88.9.40
+bastille start nginx-pkg-cdn
 bastille template nginx-pkg-cdn cedwards/nginx-pkg-cdn
 ```
 
